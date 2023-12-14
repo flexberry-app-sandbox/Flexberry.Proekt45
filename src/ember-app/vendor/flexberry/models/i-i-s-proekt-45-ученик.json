@@ -1,0 +1,143 @@
+﻿{
+  "name": "IISProekt_45Ученик",
+  "modelName": "i-i-s-proekt-45-ученик",
+  "className": "Ученик",
+  "nameSpace": "IIS.Proekt_45",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приходУход",
+      "relatedTo": "i-i-s-proekt-45-приход-уход",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "просмотр",
+      "relatedTo": "i-i-s-proekt-45-просмотр",
+      "inverse": "ученик"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УченикE",
+      "modelName": "i-i-s-proekt-45-ученик",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Фио ученика",
+          "lookupValueField": "фио ученика",
+          "relationName": "ПриходУход",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ПриходУход.СправУч",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "ПриходУход.СправУч.КлассУч",
+                  "belongsTo": [],
+                  "hidden": false,
+                  "attrs": [
+                    {
+                      "name": "назв",
+                      "caption": "Класс ученика",
+                      "hidden": false,
+                      "index": 2
+                    }
+                  ],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "классУч",
+                  "relatedTo": "i-i-s-proekt-45-класс-уч",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "фио",
+                  "caption": "Фио ученика",
+                  "hidden": false,
+                  "index": 1
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "справУч",
+              "relatedTo": "i-i-s-proekt-45-справ-уч",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ПриходУход.Расписание",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "урок",
+                  "caption": "Номер урока",
+                  "hidden": false,
+                  "index": 3
+                },
+                {
+                  "name": "периодОт",
+                  "caption": "Период От",
+                  "hidden": false,
+                  "index": 4
+                },
+                {
+                  "name": "периодДо",
+                  "caption": "Период До",
+                  "hidden": false,
+                  "index": 5
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "расписание",
+              "relatedTo": "i-i-s-proekt-45-расписание",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "статус",
+              "caption": "Статус Прихода/Ухода",
+              "hidden": false,
+              "index": 6
+            },
+            {
+              "name": "врПриУх",
+              "caption": "Время Прихода/Ухода",
+              "hidden": false,
+              "index": 7
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Приход и уход ученика",
+          "name": "приходУход",
+          "relatedTo": "i-i-s-proekt-45-приход-уход",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,1 @@
+docker-compose -p proekt_45-java down

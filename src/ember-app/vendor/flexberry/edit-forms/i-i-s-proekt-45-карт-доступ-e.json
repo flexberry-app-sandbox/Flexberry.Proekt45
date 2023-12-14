@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СправСотр",
+      "projection": "СправСотрL",
+      "detailModelName": null
+    },
+    {
+      "master": "справУч",
+      "displayAttributeName": "фио ученика",
+      "required": true,
+      "relationName": "БазаДанных.СправУч",
+      "projection": "СправУчL",
+      "detailModelName": "i-i-s-proekt-45-база-данных"
+    }
+  ],
+  "external": false,
+  "caption": "Функция: Создания базы данных",
+  "name": "IISProekt_45КартДоступE",
+  "className": "КартДоступE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-45-карт-доступ",
+      "modelProjection": "КартДоступE"
+    }
+  ]
+}

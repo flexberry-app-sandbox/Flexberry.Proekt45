@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-45-номер-e",
+  "editForm": "i-i-s-proekt-45-номер-e",
+  "external": false,
+  "caption": "Номер карты",
+  "name": "IISProekt_45НомерL",
+  "className": "НомерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-45-номер",
+      "modelProjection": "НомерL"
+    }
+  ]
+}

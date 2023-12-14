@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-45-класс-уч-e",
+  "editForm": "i-i-s-proekt-45-класс-уч-e",
+  "external": false,
+  "caption": "Класс ученика",
+  "name": "IISProekt_45КлассУчL",
+  "className": "КлассУчL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-45-класс-уч",
+      "modelProjection": "КлассУчL"
+    }
+  ]
+}

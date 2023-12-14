@@ -1,0 +1,116 @@
+﻿{
+  "applicationCaption": "Proekt_45",
+  "applicationTitle": "Proekt_45",
+  "items": [
+    {
+      "link": null,
+      "menuName": "администратор",
+      "caption": "Администратор",
+      "title": "Администратор",
+      "children": [
+        {
+          "link": "i-i-s-proekt-45-расписание-l",
+          "menuName": null,
+          "caption": "Расписание",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-45-карт-доступ-l",
+          "menuName": null,
+          "caption": "База данных",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-45-класс-уч-l",
+          "menuName": null,
+          "caption": "Класс ученика",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-45-справ-долж-l",
+          "menuName": null,
+          "caption": "Справочник должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-45-справ-уч-l",
+          "menuName": null,
+          "caption": "Справочник ученики",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-45-справ-род-l",
+          "menuName": null,
+          "caption": "Справочник родители",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-45-справ-сотр-l",
+          "menuName": null,
+          "caption": "Справочник сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-45-номер-l",
+          "menuName": null,
+          "caption": "Номер карты",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "ученик",
+      "caption": "Ученик",
+      "title": "Ученик",
+      "children": [
+        {
+          "link": "i-i-s-proekt-45-приход-уход-l",
+          "menuName": null,
+          "caption": "Функция: регистрация прихода/ухода ученика",
+          "title": "Приход уход",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "родители",
+      "caption": "Родители",
+      "title": "Родители",
+      "children": [
+        {
+          "link": "i-i-s-proekt-45-просмотр-l",
+          "menuName": null,
+          "caption": "Функция: контроль и просмотр прихода/ухода ученика",
+          "title": "Просмотр",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "охрана",
+      "caption": "Охрана",
+      "title": "Охрана",
+      "children": [
+        {
+          "link": "i-i-s-proekt-45-приход-уход-l",
+          "menuName": null,
+          "caption": "Функция: регистрация прихода/ухода ученика",
+          "title": "Приход уход",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

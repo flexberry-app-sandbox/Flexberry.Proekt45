@@ -1,0 +1,150 @@
+﻿{
+  "name": "IISProekt_45КартДоступ",
+  "modelName": "i-i-s-proekt-45-карт-доступ",
+  "className": "КартДоступ",
+  "nameSpace": "IIS.Proekt_45",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "справСотр",
+      "relatedTo": "i-i-s-proekt-45-справ-сотр",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "базаДанных",
+      "relatedTo": "i-i-s-proekt-45-база-данных",
+      "inverse": "картДоступ"
+    }
+  ],
+  "projections": [
+    {
+      "name": "КартДоступE",
+      "modelName": "i-i-s-proekt-45-карт-доступ",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Фио сотрудника",
+          "lookupValueField": "фио сотрудника",
+          "relationName": "СправСотр",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправСотр.СправДолж",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "должность",
+                  "caption": "Должность",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "справДолж",
+              "relatedTo": "i-i-s-proekt-45-справ-долж",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фио",
+              "caption": "Фио сотрудника",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Фио сотрудника",
+          "name": "справСотр",
+          "relatedTo": "i-i-s-proekt-45-справ-сотр",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "БазаДанныхE",
+          "caption": "База Данных",
+          "name": "базаДанных",
+          "relatedTo": "i-i-s-proekt-45-база-данных",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "КартДоступL",
+      "modelName": "i-i-s-proekt-45-карт-доступ",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СправСотр",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправСотр.СправДолж",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "должность",
+                  "caption": "Должность",
+                  "hidden": false,
+                  "index": 1
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "справДолж",
+              "relatedTo": "i-i-s-proekt-45-справ-долж",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фио",
+              "caption": "Фио сотрудника",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Фио сотрудника",
+          "name": "справСотр",
+          "relatedTo": "i-i-s-proekt-45-справ-сотр",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

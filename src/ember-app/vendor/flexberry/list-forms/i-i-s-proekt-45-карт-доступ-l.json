@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-45-карт-доступ-e",
+  "editForm": "i-i-s-proekt-45-карт-доступ-e",
+  "external": false,
+  "caption": "Функция: Создания базы данных",
+  "name": "IISProekt_45КартДоступL",
+  "className": "КартДоступL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-45-карт-доступ",
+      "modelProjection": "КартДоступL"
+    }
+  ]
+}
