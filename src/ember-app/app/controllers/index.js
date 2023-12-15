@@ -22,48 +22,48 @@ export default Controller.extend({
             link: 'i-i-s-proekt-45-расписание-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-расписание-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-расписание-l.title'),
-            icon: 'calendar',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-proekt-45-карт-доступ-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-карт-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-карт-доступ-l.title'),
-            icon: 'address card',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-proekt-45-класс-уч-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-класс-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-класс-уч-l.title'),
-            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-proekt-45-справ-долж-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-долж-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-долж-l.title'),
-            icon: 'book',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-proekt-45-справ-уч-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-уч-l.title'),
-            icon: 'chart line',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-proekt-45-справ-род-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-род-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-род-l.title'),
-            icon: 'calendar',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-proekt-45-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-сотр-l.title'),
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-proekt-45-номер-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-номер-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-номер-l.title'),
-            icon: 'file',
+            icon: 'table',
             children: null
           }]
         }, {
@@ -75,7 +75,7 @@ export default Controller.extend({
             link: 'i-i-s-proekt-45-приход-уход-l',
             caption: i18n.t('forms.application.sitemap.ученик.i-i-s-proekt-45-приход-уход-l.caption'),
             title: i18n.t('forms.application.sitemap.ученик.i-i-s-proekt-45-приход-уход-l.title'),
-            icon: 'chart line',
+            icon: 'folder',
             children: null
           }]
         }, {
@@ -87,7 +87,7 @@ export default Controller.extend({
             link: 'i-i-s-proekt-45-просмотр-l',
             caption: i18n.t('forms.application.sitemap.родители.i-i-s-proekt-45-просмотр-l.caption'),
             title: i18n.t('forms.application.sitemap.родители.i-i-s-proekt-45-просмотр-l.title'),
-            icon: 'address card',
+            icon: 'folder',
             children: null
           }]
         }, {
@@ -99,7 +99,7 @@ export default Controller.extend({
             link: 'i-i-s-proekt-45-приход-уход-l',
             caption: i18n.t('forms.application.sitemap.охрана.i-i-s-proekt-45-приход-уход-l.caption'),
             title: i18n.t('forms.application.sitemap.охрана.i-i-s-proekt-45-приход-уход-l.title'),
-            icon: 'calendar',
+            icon: 'address card',
             children: null
           }]
         }
