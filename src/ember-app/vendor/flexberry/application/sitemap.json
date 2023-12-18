@@ -95,21 +95,6 @@
           "children": null
         }
       ]
-    },
-    {
-      "link": null,
-      "menuName": "охрана",
-      "caption": "Охрана",
-      "title": "Охрана",
-      "children": [
-        {
-          "link": "i-i-s-proekt-45-приход-уход-l",
-          "menuName": null,
-          "caption": "Функция: регистрация прихода/ухода ученика",
-          "title": "Приход уход",
-          "children": null
-        }
-      ]
     }
   ],
   "mobile": true
