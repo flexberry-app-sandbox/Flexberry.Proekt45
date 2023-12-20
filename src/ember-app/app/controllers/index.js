@@ -22,48 +22,49 @@ export default Controller.extend({
             link: 'i-i-s-proekt-45-расписание-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-расписание-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-расписание-l.title'),
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-proekt-45-карт-доступ-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-карт-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-карт-доступ-l.title'),
-            icon: 'calendar',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-proekt-45-класс-уч-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-класс-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-класс-уч-l.title'),
-            icon: 'tags',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-proekt-45-справ-долж-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-долж-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-долж-l.title'),
-            icon: 'chart bar',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-proekt-45-справ-уч-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-уч-l.title'),
-            icon: 'book',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-proekt-45-справ-род-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-род-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-род-l.title'),
-            icon: 'calendar',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-proekt-45-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-справ-сотр-l.title'),
-            icon: 'suitcase',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-proekt-45-номер-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-номер-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-proekt-45-номер-l.title'),
-            icon: 'paperclip',
+            icon: 'suitcase',
             children: null
           }]
         }, {
@@ -75,7 +76,7 @@ export default Controller.extend({
             link: 'i-i-s-proekt-45-приход-уход-l',
             caption: i18n.t('forms.application.sitemap.ученик.i-i-s-proekt-45-приход-уход-l.caption'),
             title: i18n.t('forms.application.sitemap.ученик.i-i-s-proekt-45-приход-уход-l.title'),
-            icon: 'edit',
+            icon: 'address card',
             children: null
           }]
         }, {
@@ -87,7 +88,7 @@ export default Controller.extend({
             link: 'i-i-s-proekt-45-просмотр-l',
             caption: i18n.t('forms.application.sitemap.родители.i-i-s-proekt-45-просмотр-l.caption'),
             title: i18n.t('forms.application.sitemap.родители.i-i-s-proekt-45-просмотр-l.title'),
-            icon: 'briefcase',
+            icon: 'list',
             children: null
           }]
         }
